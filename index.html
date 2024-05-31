@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVolution 2024 Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
+    <div class="container-fluid">
+      <a class="navbar-brand font-weight-bold" href="#">Techvolution</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active px-lg-4 rounded"  href="#HOME">Home</a>
+          <a class="nav-link px-lg-4 rounded" href="#FEATURES">Features</a>
+          <a class="nav-link px-lg-4 rounded" href="#TESTIMONIALS">Testimonials</a>
+          <a class="nav-link px-lg-4 rounded" href="#EVENTS">Events</a>
+          <a class="nav-link px-lg-4 rounded" href="#GALLERY">Gallery</a>
+          <a class="nav-link px-lg-4 rounded" href="#ABOUT">About</a>
+          <a class="nav-link px-lg-4 rounded" href="http://127.0.0.1:5500/Mini%20project%20form/index.html">Registration</a>
+          <a class="nav-link px-lg-4 rounded" href="#PRIZES">Prizes</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<div style="background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDw8PEA8NDw8PDQ0NDw8NDQ8NDQ8PFREWFhUSFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NGg0NDysZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADB//EACMQAQEBAQACAQQDAQEAAAAAAAABEQISIZFBUXGxMdHw4cH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9sqaoWAJVIsaUFVKhYA1fNQAdamtKOqCeqg4wHnpeOeK5uAqudXfacBuavEYPIG6p5rY2AvGolwdUE2g42Avm6uOUdOaCh10OqgCQZAMITaBtaNIqQGxmYE89KcqrnoFVFquqjAVz0qucVKDUKR1QHXR5uoxoDo2NzVAhNquk4B5ro54J18ArqpxeN4g3NVUVPkDdVuacGAvGwcrwEp66PVQC+etU5OnNBUIFAddNzRjSA6Q6mVPXQK82QwMnro9VGArjp0jljpxQVgUjqgL0BhAMrGwBFeWooB0bDzU9ewTaFY2AeKuudTO/gFdVK8GAOavE4rmgwvWHqueAoNFYCYTgBU60ueOnNA4mrcu6Ceulc1OAHRhOmBJxLpAAUjqgrz+jOeL56BTYSAFUwIsZViOgTavm6nDAXjUyo6ugjqhWNgNz06Y54vmgcT1VdVzwG5qsTiuQaRUbCAsGKjUEgo66BXnv+/lnPFyg1GLFBOMGBWCUp6oKvX2TgnpQAYrGBXHS3JfPQKZtTaDUYSCMZVc+roC9LlczAXhxuaoE4nqq6rkB56W5r4oHDimASqS0oKZkddAOqnCwBsLW4B8vkIXzQOAsA6oxQoJrQsCmqZcVoAGgDz1/wAW5L56BRbXO9aB6upwjQbGxUYBFeXz+kddIlBbYZdIJxsNToL56W5nnoFBTn10DXr6fRkmUCYzWg1QWAQ4xgNrHGBMuKTWlwFYCKAEuEUFfyBLigDVqi3QVO99fCscl89AWVgsAQ9df77J6uflEoKwKbAEdPJztTtB0rNLpwGY459dAfP6fQuauegUxa0G3EgwCQQONfTbiQFrFgNFULAEuKRjSgqgigGlxkX2C7d/ATLiwScOEDz0ern5c+rn5HN+4NYMXgwBPS7U30iUFUKxsBo6c1GIvX2B06qcMYEnDgvoDOs/lnP+Vc0FEEDCEgxaQyAzFgZg1BqDKLAEqkjQa+wRgA83GwgodXPz+k+WMAbDhkA8030mpnX3BqF42AObjojE+Xx+wV1U4rGsBOrl1ONuewXaitukAzYcBuatDSgSxkBoRawFgwMKJTYCdVOk1ALrGVsAFiAqern5V1flGAky42HAU1uCXP6a+/YDWxsVAbmqxNg8voDdUYvE2AJcWjDLn9fcDfTnqr79tgBUupwgtmjAGLA0p6qeqmAqKgkMAsnzICwTpSKBosMOAhcqbBoOgtby+f0ADFsAYyqiwE0y4xwFRhPSqCbWw4wNKzYdAVzqxYAlxSTAOMoAypUsCh1ca9fP6QAVhkICevw1utWgHGLAmszAxZgCemYExcu/+swFiwJZmAYWYGE9MwLZmAVLMBZmAYYzAymYALc/P6ZgQvlmBQpYAzMDMzA//9k=);">
+<!---home--->
+  <div class="container my-5" id="HOME">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis font-weight-bold">Welcome to Techvolution 2k24</h1>
+        <p class="lead">TechVolution encapsulates the dynamic interplay between technology, adaptation, and progress. Whether it’s the birth of a new tool or the dawn of automation, each step contributes to our ever-evolving technological landscape </p>
+        
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="https://source.boomplaymusic.com/group10/M00/02/29/4001c1df52794f09a40c90a3e156e844_320_320.jpg" alt="" width="460">
+      </div>
+    </div>
+  </div>
+  
+<!--Features-->
+<div class="container px-4 py-5" id="FEATURES">
+  <h2 class="pb-2 border-bottom fw-bold lh-1 text-body-emphasis font-weight-bold" >Features</h2>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://media.istockphoto.com/id/1488762342/photo/ai-new-age-digital-brain-chip-concept.jpg?b=1&s=612x612&w=0&k=20&c=xet1RAhbxWm7jPOEHFeWI236RZOoIwqsi5OE7o-B8E8=');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Panel Discussions</h3>
+           <p>Experts share insights and engage in discussions on specific topics or emerging technologies.</p>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://r2.erweima.ai/imgcompressed/compressed_4e8ecb68d2957ec73ad58d3b8eeb8def.webp" alt="Bootstrap" width="60" height="60" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Delhi</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>3d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://media.istockphoto.com/id/1279645365/photo/ai-robot-using-cyber-security-to-protect-information-privacy.jpg?b=1&s=612x612&w=0&k=20&c=nr0rqHYOVypDHuA6QgWMDIDB3M4e7qI1ZqwasGohLyI=');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Workshop Sessions</h3>
+          <p>Hands-on workshops allow attendees to learn new skills, tools, and techniques directly from industry professionals.</p>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://r2.erweima.ai/imgcompressed/compressed_4e8ecb68d2957ec73ad58d3b8eeb8def.webp" alt="Bootstrap" width="60" height="60" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Chennai</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>4d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://media.istockphoto.com/id/858053178/photo/digital-electronic-components-circuit-boards-technology-era-india-map.jpg?b=1&s=612x612&w=0&k=20&c=pojU9mtvRsPLsTElgtJPONqM2QsL--oeNhNhk2XgpDo=');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hackathons</h3>
+          <p>Intense collaborative events where developers, designers, and entrepreneurs come together</p>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://r2.erweima.ai/imgcompressed/compressed_4e8ecb68d2957ec73ad58d3b8eeb8def.webp" alt="Bootstrap" width="60" height="60" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Mumbai</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>5d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Testimonials-->
+<div class="container px-4 py-5" id="TESTIMONIALS">
+  <h2 class="pb-2 border-bottom fw-bold lh-1 text-body-emphasis font-weight-bold" >Testimonials</h2>
+<div class="row" >
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/6347901/pexels-photo-6347901.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">SAMOA JOE <p><small>(Web Developer)</small></p></h5>
+      <p class="card-text">Techvolution includes the union of technology with evolution, ushering in a new era of opportunities and challenges.From artificial intelligence to blockchain, virtual reality to gene editing, innovation is transforming businesses and society in unforeseen ways.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/5940858/pexels-photo-5940858.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">SAMUEL <p><small>(Frontend Developer)</small></p></h5>
+      <p class="card-text">One of the distinguishing features of Techvolution is its disruptive nature. Artificial intelligence, automation, and the Internet of Things (IoT) are altering traditional sectors, challenging existing norms, and opening up new possibilities.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/20229442/pexels-photo-20229442/free-photo-of-photo-of-a-man-wearing-a-burgundy-shirt-and-necktie.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">ADITHYA <p><small>(App Developer)</small></p></h5>
+      <p class="card-text">Techvolution encompasses both technology breakthroughs and economic transformation. Emerging technologies have the potential to generate new sectors, employment, and revenue streams while also disrupting old ones. </p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/4049870/pexels-photo-4049870.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">NANCY <p><small>(Backend Developer) </small></p></h5>
+      <p class="card-text">Techvolution lies the promise of unleashing human ability. AI, augmented reality, and biotechnology are expanding human capabilities, improving productivity, and enabling new forms of creativity and expression. </p>
+    </div>
+  </div>
+</div>
+
+<!--Events-->
+<section id="EVENTS" class="section-padding">
+  <div class="container">
+    <h2 class="pb-2 border-bottom fw-bold lh-1 text-body-emphasis font-weight-bold" >Events</h2>
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Keynote Speech</h5>
+            <p class="card-text">Date: September 15, 2024<br>Time: 10:00 AM - 11:30 AM</p>
+            <p class="card-text">Join us for an inspiring keynote speech by industry leaders.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Workshop: Introduction to AI</h5>
+            <p class="card-text">Date: September 15, 2024<br>Time: 2:00 PM - 4:00 PM</p>
+            <p class="card-text">Learn the basics of artificial intelligence and its applications.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Data Analytics and Visualization Techniques</h5>
+            <p class="card-text">Date: September 16, 2024<br>Time: 10:00 AM - 12:00 PM</p>
+            <p class="card-text">Let’s delve into the fascinating world of Data Analytics and Visualization Techniques.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Introduction to Internet of Things (IoT)</h5>
+            <p class="card-text">Date: September 16, 2024<br>Time: 2:00 PM - 4:00 PM</p>
+            <p class="card-text">Let’s explore, learn, and master these techniques for powerful analytics.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Panel Discussion: Future of Tech</h5>
+            <p class="card-text">Date: September 17, 2024<br>Time: 11:00 AM - 1:00 PM</p>
+            <p class="card-text">Join experts as they discuss the latest trends and future outlook of technology.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Closing Keynote: “The Future of Tech: Trends and Predictions”</h5>
+            <p class="card-text">Date: September 17, 2024<br>Time: 3:00 PM - 4:00 PM</p>
+            <p class="card-text">Let's witness a dynamic symphony of technological forces reshaping industries, redefining norms.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Gallery-->
+<h2 class="pb-2 border-bottom fw-bold lh-1 text-body-emphasis font-weight-bold " id="GALLERY" >Gallery</h2>
+<div class="row mt-5">
+  
+  <div class="col-lg-6">
+    <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&amp;w=1470&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  class="w-100 mb-2 shadow-1-strong rounded">
+  </div>
+  <div class="col-lg-6">
+    <img src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=600"  class="w-100 mb-2 shadow-1-strong rounded">
+  </div>
+  <div class="col-lg-6">
+    <img src="https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg?auto=compress&cs=tinysrgb&w=600"  class="w-100 mb-2 shadow-1-strong rounded">
+  </div>
+  <div class="col-lg-6">
+    <img src="https://images.pexels.com/photos/3678057/pexels-photo-3678057.png?auto=compress&cs=tinysrgb&w=600"  class="w-100 mb-2 shadow-1-strong rounded">
+  </div>
+  <div class="col-lg-6">
+    <img src="https://images.pexels.com/photos/1709003/pexels-photo-1709003.jpeg?auto=compress&cs=tinysrgb&w=600"  class="w-100 mb-2 shadow-1-strong rounded">
+  </div>
+  <div class="col-lg-6">
+    <img src="https://images.pexels.com/photos/6476778/pexels-photo-6476778.jpeg?auto=compress&cs=tinysrgb&w=600"  class="w-100 mb-2 shadow-1-strong rounded">
+  </div>
+
+<!--About-->
+
+<h2 class="pb-2 border-bottom fw-bold lh-1 text-body-emphasis font-weight-bold " id="ABOUT" >About</h2>
+<div style="background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPEA8PDw8NDw4QDQ0QEA0NDQ8NDQ8OFREWFhURExUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQYFDgUPDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAL4BCgMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAUH/8QALRABAAIBBAAFAgYCAwAAAAAAAAECEQMxQVESIWFxgULwIpGhsdHhBMEycvH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAwL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD9cAUZAAAQFAABJkEtLnEeL/r+6xHi9v3dAIhQAAAAAAAAAAAAAABEmSWLSCWl59S7Wpd00NH6rb8R16+4J/j/AOPj8Vt+I69fd6BAaAABABI81BQQCZYxn2/dd/ZoBQAQAUAAAAAAAAAAABJkZmQSZcdS7V7NaWlzO/EdAmjo/VbfiOvX3dlSQSZZyl7M+G3U/nAOmlqRaMx8xzEtvn4mk+Kv5cTD2aWrFozHzE7wDoxv7JnPs3EAQoAM7+yyAKADMylrcQsQCxCgAAAAAAAAAAACATLlezV5KU5nfiOgTT0+Z34jp1AEZtKzJWvM/kDNK8z8Q6ADjejxzmJzEf29cz4vbr+VnTBrRvFozHzHUujxWrNZ8Vd/0mOperS1ItGY+Y5iQbAAAAYtbiPzS9uI+ZWtQWsNAAAAAAAAAAAAACM2lqZSI7BK15nf9mwARUAiFRQAAYrVrBCgxarz2rNZ8Ub/AKTHUvUzaoGnqRaMx8x1LbzWrNZzG/6TDtp38UZj5jmJBtyvfiPmevRNTU4j5nr2WlcAtK4bIUAAAABABQAAAAAEVAIhQAAAAAAAAAAABASYeXVtifw77T17Ourq/TX5n/UJTTBdDEx5flzDtDjNMTmP6l1rbPn+foDQAAJMgJnKZz/LUQAoAAAAAAAAAAAAAAAAAAAAAOGtq/TX5nr0hNfW+mvzbr0j1TS08Aunp4dogiFAmHOa4nMf1LqgJW2fvZpzmMecf+r4/IGpljOfbmWf+U4j5l1iMARCgAAAAAAAAAAAAAAAAAAAAA82vrfTXfm0cekH+Rr/AE135nr0hnS08Aulp4d6wVhoAUBMiWc5vgG7WcMTM+XG8rGbTiNuZ6eitcRiNgSmMYhpmY5WJAVDIKIoAAAAAAAAAAAAAAAAAAPHpab0VhK1dIAhRAVJlJlzvcGrXcMTecRtzPSRm84jaN56eqlYiMRsDFPw/h2x95dIlL1z/qXOLY8p3B2SYSJUAkUGNmokmGNv5BtWYlcgoAAAAAAAAAAAAAAAMxCgAkyky5XuC3u4xE3nEbcz1/aVibziNuZ6eylIrGI2ApSIjEbNAAzemffiemgHnrbE4nd2iU1KeKPXienGtpicTuD0KxWzUAqTGVAcZ8vKduJbiWrVz5S4Tms4n4nsHeJHOtm4kGhFAAAAAAAAAAAABMs2szazhqagNX1HKlZvOI8o5npnTpN5xtHMvfSkVjEbAUpFYxEYhoAAAAAGNXT8UevE9NgPHW0xOJ8p+9netl1dKLR1PE9f08tbTWcW3/T3B7YlXGl3SJBpLViYxIoPLbNZxO3E9t1s62rExifv1eW0TScTtxPYPTEtRLz1u6xYG1ZiVBQAAAAAAAAAeHU1HPT05vPpzPSaVPHaIzjPL6NKRWMRsBSkVjEbNAAAAAAAAAA562lFo6mNp6dAHz4tNZxbyn783opd01tGLxjniep/h4aXxOOpwD3xZrLzUu7VsDaXpFoxOxCg8Nomk4nbie3St3p1KRaMTt9+bwWiaWmuc+oPXWzcS8tbO1bA6qxEtZBVQBQAAAAAf//Z);">
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+  <div class="col-md-6 p-lg-5 mx-auto my-5">
+    <P>TechVolution 2024 is a cutting-edge technology conference aimed at bringing together industry leaders, innovators, and enthusiasts from around the globe. Our mission is to foster collaboration, inspire creativity, and drive technological advancement.
+
+      With a focus on emerging technologies such as artificial intelligence, blockchain, augmented reality, and more, TechVolution 2024 offers a platform for sharing knowledge, networking, and exploring the latest trends shaping the future.
+      
+      Whether you're a seasoned professional, a budding entrepreneur, or simply curious about the latest tech innovations, TechVolution 2024 has something for everyone.</P>
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+</div>
+
+<!--Prizes-->
+<h2 class="pb-2 border-bottom fw-bold lh-1 text-body-emphasis font-weight-bold " id="PRIZES" >Prizes</h2>
+<div class="card" style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text fw-bold">T-Shirt</p>
+    <p>Our TechVolution t-shirts are crafted with comfort and quality in mind.
+      They feature a modern fit, making them suitable for various body types.</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text fw-bold">Watch</p>
+      <p>When it comes to watches, finding the right words to describe them can be a delightful challenge. 
+      Whether you’re a watch enthusiast or simply in the market for a new timepiece</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/7054799/pexels-photo-7054799.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text fw-bold">Laptop Bag</p>
+      <p>a good laptop bag not only protects your device but also complements your style. 
+      Whether you prefer a sleek, professional look or a more casual vibe, these bags offer a blend of practicality and aesthetics.</p>
+  </div>
+</div>
+</div>
+
+<!--Footer-->
+<footer class="text-center text-black" >
+  <div class="container">
+    <section class="mt-5">
+      <div class="row text-center d-flex justify-content-center pt-5">
+        <div class="col-md-2">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#ABOUT" class="text-danger">About us</a>
+          </h6>
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#PRIZES" class="text-danger">Prizes</a>
+          </h6>
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#EVENTS" class="text-danger">Events</a>
+          </h6>
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="http://127.0.0.1:5500/Mini%20project%20form/index.html" class="text-danger">Registration</a>
+          </h6>
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#GALLERY" class="text-danger">Gallery</a>
+          </h6>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Links -->
+
+    <hr class="my-4">
+
+    <!-- Section: Text -->
+    <section class="mb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <p>
+            Stay connected for the latest updates and announcements! Join us on social media: #TechVolution. For inquiries, sponsorship opportunities, or special accommodations, please contact us at "techVol@gmail.com". We look forward to welcoming you to an unforgettable experience!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Social -->
+    <section class="text-center mb-5 my-4 row-gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 20 20">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 20 20">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"></path>
+      </svg>
+    </section>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2024 Copyright:
+    <a class="text-danger" href="/">TechVolution 2024</a>
+  </div>
+</footer>
+
+</body>
+</html>
